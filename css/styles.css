@@ -72,6 +72,14 @@ a:active {
 	text-align: center;
 }
 
+.page-footer {
+	text-align: center;
+}
+
+.page-footer__item {
+	text-decoration: none;
+}
+
 /* Index page */
 
 .profile {
