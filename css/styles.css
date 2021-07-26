@@ -201,6 +201,16 @@ a:active {
 	text-align: center;
 }
 
+input {
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+#contact-message {
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
 /* Buttons */
 
 #send_message-button,
