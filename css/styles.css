@@ -183,6 +183,24 @@ a:active {
   grid-row: 1 / 3;
 }
 
+/* Contact Page */
+
+.contact-info {
+	text-align: center;
+}
+
+.contact-form {
+	display: block;
+	text-align: center;
+}
+
+#contact_form {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 /* Buttons */
 
 #send_message-button,
