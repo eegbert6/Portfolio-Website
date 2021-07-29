@@ -209,6 +209,24 @@ a:active {
 	text-align: center;
 }
 
+.contact-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.contact-grid__item {
+	padding: 2px;
+	width: auto;
+	min-height: auto;
+	margin: 5px;
+}
+
+.contact-grid__item:last-child {
+	grid-column: 1/4;
+	grid-row: 2/2;
+}
+
 input {
   vertical-align: middle;
   box-sizing: border-box;
@@ -249,7 +267,8 @@ input {
 
 @media all and (max-width: 500px) {
 	.projects-grid,
-  .about-grid {
+  .about-grid,
+  .contact-grid {
 		grid-template-columns: 1fr;
 	}
 }
