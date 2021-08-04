@@ -286,6 +286,11 @@ input {
           box-sizing: border-box;
 }
 
+.error-message {
+	color: red;
+	font-size: 0.8em;
+}
+
 /* Buttons */
 
 #send_message-button {
